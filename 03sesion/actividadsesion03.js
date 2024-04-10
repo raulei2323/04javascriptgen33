@@ -20,7 +20,7 @@
     return imc + message
 }
 
-console.log(imcCalculator(90, 1.70))
+console.log(imcCalculator(90, 1.65))
 
 //?los valores se ingresan primero peso en kg y luego altura en metros
 
