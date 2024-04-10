@@ -1,33 +1,31 @@
-
 const phrase = "La mejor forma de predecir el futuro es creándolo"
 
-pLength = (phrase) => {
+pLength = () => {
     const phraseLength = phrase.length
-    return "Los caracteres en total de la frase son " + phraseLength
+    console.log("Los caracteres en total de la frase son " + phraseLength)
+    return
 }
-console.log(pLength(phrase))
+pLength(phrase)
 
 pLettercounter = (phrase) => {
-
     const noWSPhrase = phrase.replaceAll(' ', '')
     const noWSPhraselength = noWSPhrase.length
-    return `La frase tiene ${noWSPhraselength} letras`
+    console.log(`La frase tiene ${noWSPhraselength} letras`)
+    return
 }
-console.log(pLettercounter(phrase))
+pLettercounter(phrase)
 
 pUppercase = (phrase) => {
-
     const pUppercase = phrase.toUpperCase()
-    return "Asi se ve la frase con todas las letras mayusculas: " + pUppercase
+    console.log("Asi se ve la frase con todas las letras mayusculas: " + pUppercase)
  }
-console.log(pUppercase(phrase))
+pUppercase(phrase)
 
 p4Replacer = (phrase) => {
-
     const p4Replace = phrase.replaceAll('a', '4')
-    return "Asi se ve la frase con todas las letras 'a' reemplazadas por el numero 4: " + p4Replace
+    console.log("Asi se ve la frase con todas las letras 'a' reemplazadas por el numero 4: " + p4Replace)
 }
-console.log(p4Replacer(phrase))
+p4Replacer(phrase)
 
 
 
