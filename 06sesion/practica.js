@@ -11,7 +11,7 @@ pLettercounter = (phrase) => {
     const noWSPhrase = phrase.replaceAll(' ', '')
     const noWSPhraselength = noWSPhrase.length
     console.log(`La frase tiene ${noWSPhraselength} letras`)
-    return
+    return//solo puse el return para ver que pasaba. como es una funcion que acabo, no pasa nada, en otro tipo de funciones si puede pasar algo
 }
 pLettercounter(phrase)
 
